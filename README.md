@@ -4,7 +4,7 @@
 
 [Webpack 5](https://webpack.js.org/) boilerplate with support of most common loaders and modules:
 
--   [babel](https://babeljs.io/)
+-   [swc](https://swc.rs/)
 -   typescript (using [ForkTsCheckerWebpack](https://www.npmjs.com/package/fork-ts-checker-webpack-plugin) )
 -   sass, less, [css modules](https://github.com/css-modules/css-modules) with automatic typescript declaration
 -   with react support (also with [react-refresh](https://www.npmjs.com/package/@pmmmwh/react-refresh-webpack-plugin))
@@ -19,7 +19,7 @@
 
 To run this locally:
 
-1. run `git clone https://github.com/glook/webpack-typescript-react.git sample-project`
+1. run `git clone https://github.com/abdulmuqeet1/webpack-typescript-react.git sample-project`
 2. Install all dependencies using `yarn` or `npm install`
 3. Start the development server using `yarn start` or `npm run start`
 4. Open up [http://localhost:8080](http://localhost:8080)
