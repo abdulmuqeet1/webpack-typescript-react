@@ -8,10 +8,7 @@ import {babelLoader} from './useLoaderRuleItems';
  */
 export const typescriptRule = {
     test: /\.tsx?$/,
-    loader: 'ts-loader',
-    options: {
-        transpileOnly: true,
-    },
+    loader: 'swc-loader',
     exclude: /node_modules/,
 };
 /**
